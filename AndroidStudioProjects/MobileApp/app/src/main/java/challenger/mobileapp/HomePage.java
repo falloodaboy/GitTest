@@ -16,7 +16,7 @@ public class HomePage extends AppCompatActivity {
             private Button logger;
             private Button signer;
             private Button faq;
-            private final String TAG = "com.challenger.MobileApp";
+            private final String TAG = "Challenger";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -54,6 +55,7 @@ public class Login extends AppCompatActivity implements Runnable {
                     Toast toast = Toast.makeText(context, text, Toast.LENGTH_LONG);
                     toast.show();
                 }
+
             }
         });
 
@@ -65,7 +67,7 @@ public class Login extends AppCompatActivity implements Runnable {
             @Override
             public void onClick(View view) {
                 if(view.getId() == but.getId()){
-                   // SignInUser();
+//                    SignInUser();
                     start();
                 }
             }

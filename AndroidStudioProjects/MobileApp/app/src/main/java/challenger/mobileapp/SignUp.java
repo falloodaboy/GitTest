@@ -79,7 +79,8 @@ public class SignUp extends AppCompatActivity {
     }
     @Override
     public void onStop(){
-        super.onStop();
         auth.signOut();
+        super.onStop();
+
     }
 }
